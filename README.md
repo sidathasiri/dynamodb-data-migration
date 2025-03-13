@@ -1,4 +1,4 @@
-## Currency Data Migration Script for PaymantPlan DynamoDB Table
+## DynamoDB Table Data Migration Script
 
 ### Setup Locally
 - Run `npm install` to install the dependencies

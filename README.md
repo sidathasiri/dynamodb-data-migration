@@ -6,7 +6,7 @@
 
 ### Steps
 1. Create a on-demand backup of the current data in the `PaymentPlanOrders` DynamoDB table from the AWS console and confirm the backup is successfully created
-2. Export the data as CSV and download to your local machine
+2. Export the data as CSV and download to your local machine. Verify the record count in the CSV and in the DynamoDB table are same
 3. Update the `inputCsvPath` in the `index.js` pointing to the downloaded CSV file
 4. Run the `appendColumnToCsv` function to create a new CSV file including the currency column
 5. Once the execution is complete review the newly created `updated-dynamodb-data.csv` file to verify if the data change is correct before pushing to the DynamoDB table
